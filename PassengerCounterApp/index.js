@@ -1,12 +1,8 @@
-let myAge = 29;
-let humanDogRatio = 7;
-let myDogAge = myAge * humanDogRatio;
-console.log(myDogAge);
+let count = 0;
+let countElement = document.getElementById("count-el");
+console.log(countElement);
 
-let bonusPoints = 50;
-bonusPoints = bonusPoints + 50;
-console.log(bonusPoints);
-bonusPoints = bonusPoints - 75;
-console.log(bonusPoints);
-bonusPoints = bonusPoints + 45;
-console.log(bonusPoints);
+function increment() {
+    count += 1;
+    countElement.innerText = count;    
+}
