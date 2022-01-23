@@ -14,3 +14,16 @@ h1 {
 #message-el {
     font-style: italic;
 }
+
+button {
+    color: #016f32;
+    font-size: 0.5em;
+    font-family: 'Trebuchet MS';
+    width: 10vw;
+    height: 5vh;
+    padding: 5px 0 5px 0;
+    font-weight: bold;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 2px;
+}
